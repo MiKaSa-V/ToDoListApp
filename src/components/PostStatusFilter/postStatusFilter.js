@@ -5,12 +5,12 @@ const PostStatusFilter = () => {
     return (
         <div className="btn-group">
             <button 
-                type="submit"
-                className="btn btn-outline-secondary btn-post-filter">
+                type="button"
+                className="btn btn-info">
                 Все</button>
                 <button 
-                type="submit"
-                className="btn btn-outline-secondary btn-post-filter">
+                type="button"
+                className="btn btn-outline-secondary">
                 Выполненные</button>
         </div>
     )
